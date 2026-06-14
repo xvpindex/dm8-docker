@@ -6,7 +6,7 @@
 
 ```
 docker build . -t dm8:v1
-docker run -d --name dm8 -p 5236:5236 -e SYSDBA_PWD=aA123456 -e SYSAUDITOR_PWD=aA123456 dm8:v20250917_293539_x86_64
+docker run -d --name dm8 -p 5236:5236 -e SYSDBA_PWD=aA123456 -e SYSAUDITOR_PWD=aA123456 dm8:v1
 ```
 
 3. environment variables
